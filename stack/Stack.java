@@ -1,3 +1,4 @@
+package stack;
 import java.util.ArrayList;
 
 public class Stack {
@@ -18,7 +19,6 @@ public class Stack {
             stackArray[top] = value;
             top++;
         }
-
     }
 
     public int pop() {
