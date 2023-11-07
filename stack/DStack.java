@@ -2,7 +2,7 @@ package stack;
 
 public class DStack {
 
-    int capacity=2;
+    public int capacity=2;
     int[] stack = new int[capacity];
     int top = 0;
 
@@ -31,9 +31,21 @@ public class DStack {
             top--;
             int value = stack[top];
             stack[top] = 0;
+            shrink();
             return value;
         }
 
+    }
+
+    private void shrink() {
+        //length < capacity/4
+        if(size()<capacity/4){ 
+            capacity=capacity/2;
+        } 
+
+        int newStack[]=new int[capacity];
+        System.arraycopy(stack, 0, newStack, 0, size());
+        stack=newStack;
     }
 
     public int size() {
@@ -49,6 +61,12 @@ public class DStack {
 
     public int peek() {
         return stack[top - 1];
+    }
+
+     public void show() {
+        for (int i = 0; i < stack.length; i++) {
+            System.out.println(stack[i]);
+        }
     }
 
 }

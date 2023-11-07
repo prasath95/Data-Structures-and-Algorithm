@@ -1,4 +1,7 @@
-# Data-Structures-and-Algorithm
-Data Structures and Algorithm  Learn from Basic
+# Data-Structures-and-Algorithms
+Data Structures and Algorithms  Learn from Basic
 
-1.stack
+###Stack
+
+- [x] Stack
+- [x] using Dynamic Array
