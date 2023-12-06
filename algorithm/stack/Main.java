@@ -11,7 +11,7 @@ public class Main {
       System.out.println("pop "+stack.pop());
      // stack.pop();
 
-     System.out.println("peek "+stack.peek());
+      System.out.println("peek "+stack.peek());
 
       stack.show();
    }
