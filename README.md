@@ -18,3 +18,20 @@ Data Structures and Algorithms  Learn from Basic
   - size
   - isEmpty
   - show
+
+### LinkedList
+
+  - insert
+  - insertAtStart
+  - insertAt
+  - show
+
+### Problem
+
+  - greedy approuch
+  - two pointers approch
+
+
+
+
+
