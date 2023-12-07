@@ -37,22 +37,26 @@ public class Problem1716 {
                 fullWeekMoney+=i;
             }
         }else{
-            for (int i = 1; i <= 7; i++) {
-                fullWeekMoney+=i;
+            int weekMoney=0;
+            for (int i = 1; i <= 6; i++) {
+                weekMoney+=i;
             }
 
             int fullWeek=n/7;
             int partWeek=n%7;
-            int x=1;
-            int y=8;
+            int x=0;
+            int y=7;
 
-           while (1<fullWeek) {
+           while (1<=fullWeek) {
             int add=y-x;
-            fullWeekMoney+=fullWeekMoney+=add;
+             
+            int thisWeek=weekMoney+=add;
+            fullWeekMoney+=thisWeek;
 
-             fullWeek--;
              x++;
              y++;
+             fullWeek--;
+
            }
 
            int p=(n/7)+1;
