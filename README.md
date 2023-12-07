@@ -44,6 +44,10 @@ Data Structures and Algorithms  Learn from Basic
 
 
 
+### Leetcode
 
+- [x] 1716
+  - greedy approuch
+  - o(N)
 
 
