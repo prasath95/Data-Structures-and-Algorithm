@@ -1,4 +1,6 @@
-package leetcode;
+package leetcode.leet1716;
+
+
 
 //#EASY
 // Hercy wants to save money for his first car. He puts money in the Leetcode bank every day.
@@ -56,7 +58,6 @@ public class Problem1716 {
              x++;
              y++;
              fullWeek--;
-
            }
 
            int p=(n/7)+1;
