@@ -53,4 +53,7 @@ Data Structures and Algorithms  Learn from Basic
 - [x] 2591
   - solution 1st - 1-todo 
 
+- [x] 1 - Two Sum
+  - o(N)
+
 
